@@ -12,11 +12,14 @@
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.15",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^2.1.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   }
 }
