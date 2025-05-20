@@ -11,7 +11,7 @@ export const api = {
   },
 
   fetchDonations: async () => {
-    const res = await instance.get("/api/donation/donation?_limit='20'")
+    const res = await instance.get("/api/donation/donation?_limit=20")
     return res
   },
 
@@ -26,7 +26,7 @@ export const api = {
   },
 
   fetchSignatures: async () => {
-    const res = await instance.get("/api/signature/signature?_limit='20'")
+    const res = await instance.get("/api/signature/signature?_limit=20")
     return res
   },
 
